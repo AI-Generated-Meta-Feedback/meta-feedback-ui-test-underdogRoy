@@ -7,9 +7,9 @@ function sortReturnedBooks(books)
      books[j+1]=cur
   return books
 function compare(a,b)
- if a.shelfnumber<b.shelfnumber:
+ if a.shelfNumber<b.shelfNumber:
      return true
-else if a.shelfnumber==b.shelfnumber and a.returnorder<b.returnorder:
+else if a.shelfNumber==b.shelfNumber and a.returnOrder<b.returnOrder:
      return true
 else:
     return false
